@@ -24,8 +24,11 @@
 		"gulp-webp-html": "^1.0.2",
 		"i": "^0.3.7",
 		"npm": "^9.7.2",
+		"prettier": "^3.1.0",
 		"sass": "^1.63.4",
 		"style-loader": "^3.3.3",
+		"stylelint": "^15.11.0",
+		"stylelint-config-standard-scss": "^11.1.0",
 		"webpack-stream": "^7.0.0"
 	},
 	"babel": {
