@@ -1,11 +1,12 @@
 .container {
-	padding: 0 var(--container-padding);
-	max-width: var(--container-width);
-	margin: 0 auto;
+  padding: 0 var(--container-padding);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
+/*
 .container-right {
-	/* overflow-x: hidden; */
+	!* overflow-x: hidden; *!
 	padding-left: calc(
 		(100% - var(--container-width)) / 2 + var(--container-padding)
 	);
@@ -16,7 +17,7 @@
 }
 
 .container-left {
-	/* overflow-x: hidden; */
+	!* overflow-x: hidden; *!
 	padding-right: calc(
 		(100% - var(--container-width)) / 2 + var(--container-padding)
 	);
@@ -25,3 +26,4 @@
 		padding-right: var(--container-padding);
 	}
 }
+*/

@@ -1,0 +1,16 @@
+.main {
+}
+
+.content {
+  &__left {
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fz-36-48);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
