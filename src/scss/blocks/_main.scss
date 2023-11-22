@@ -1,4 +1,10 @@
 .main {
+  //background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  width: 100%;
 }
 
 .small {
@@ -14,6 +20,8 @@
   flex-direction: column;
   gap: 45px;
   padding: 40px 0 59px;
+  position: relative;
+  z-index: 2;
 
   &__left {
     display: flex;
@@ -221,9 +229,9 @@
 
     .getButton {
       height: auto;
-      min-height: 61px;
-      max-width: 262px;
       margin-top: 21px;
+      max-width: 262px;
+      min-height: 61px;
     }
   }
 }

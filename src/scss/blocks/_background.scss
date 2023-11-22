@@ -1,0 +1,132 @@
+.redBall-small {
+  background: radial-gradient(
+    82.3% 82.3% at 27.25% 26.5%,
+    rgb(255 208 208 / 48%) 0%,
+    rgb(212 93 93 / 25%) 59.67%,
+    rgb(167 49 49 / 26%) 78.59%,
+    rgb(130 25 25 / 23%) 100%
+  );
+  border-radius: 100%;
+  filter: drop-shadow(3px 6px 27px rgb(223 125 125 / 25%)) blur(0.781vw);
+  height: 18px;
+  position: absolute;
+  right: 24px;
+  top: 563px;
+  width: 18px;
+  z-index: 0;
+}
+
+.purpleBall {
+  background: radial-gradient(
+    82.3% 82.3% at 27.25% 26.5%,
+    rgb(236 208 255 / 64%) 0%,
+    rgb(161 93 207 / 24%) 59.67%,
+    rgb(118 49 164 / 21%) 78.59%,
+    rgb(86 24 128 / 23%) 100%
+  );
+  border-radius: 100%;
+  filter: drop-shadow(3px 6px 27px rgb(177 118 217 / 25%)) blur(1.563vw);
+  height: 40px;
+  position: absolute;
+  right: -16px;
+  top: 236px;
+  width: 40px;
+  z-index: 4;
+}
+
+.yellowball {
+  background: radial-gradient(
+    105.65% 105.65% at 0% 11.96%,
+    rgb(255 233 203 / 57%) 0%,
+    rgb(184 131 18 / 45%) 100%
+  );
+  border: 0.5px #fcb045;
+  border-radius: 100%;
+  box-shadow: -4px 4px 7px 0 rgb(255 255 255 / 25%) inset;
+  filter: drop-shadow(0 4px 4px rgb(0 0 0 / 25%)) blur(0.781vw);
+  height: 25px;
+  left: 6.563vw;
+  position: absolute;
+  top: 629px;
+  width: 25px;
+}
+
+.redBall {
+  background: radial-gradient(
+    82.3% 82.3% at 27.25% 26.5%,
+    rgb(255 208 208 / 54%) 0%,
+    rgb(212 93 93 / 26%) 59.67%,
+    rgb(167 49 49 / 25%) 78.59%,
+    rgb(130 25 25 / 25%) 100%
+  );
+  border-radius: 100%;
+  bottom: 0;
+  filter: drop-shadow(3px 6px 27px rgb(223 125 125 / 25%)) blur(0.625vw);
+  height: 43px;
+  left: 9.063vw;
+  position: absolute;
+  width: 43px;
+  z-index: 3;
+}
+
+.glass {
+  background: radial-gradient(
+    304.35% 148.2% at 3.2% 3.49%,
+    rgb(255 246 233 / 10%) 0%,
+    rgb(26 29 35 / 10%) 26.62%,
+    rgb(26 29 35 / 10%) 52.1%,
+    rgb(26 29 35 / 1%) 70.17%,
+    rgb(26 29 35 / 0%) 100%
+  );
+  filter: blur(2.344vw);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+/*.noise {
+  background: lightgray 0% 0% / 100px 100px repeat;
+  filter: blur(2.344vw);
+  height: 100%;
+  mix-blend-mode: overlay;
+  position: absolute;
+  width: 100%;
+  z-index: -5;
+}*/
+
+.yellowlight {
+  background: #fcb045;
+  filter: blur(61.25vw);
+  height: 200px;
+  opacity: 0.4;
+  position: absolute;
+  top: 519px;
+  width: 200px;
+  z-index: -1;
+}
+
+.redlight {
+  background-color: #961a1a;
+  filter: blur(61.25vw);
+  height: 210px;
+  left: -55px;
+  opacity: 0.5;
+  position: absolute;
+  top: 241px;
+  width: 211px;
+  z-index: 0;
+}
+
+.purplelight {
+  background: #833ab4;
+  border-radius: 259px;
+  filter: blur(61.25vw);
+  height: 259px;
+  opacity: 0.5;
+  position: absolute;
+  right: -197px;
+  top: 107px;
+  width: 259px;
+  z-index: 0;
+}

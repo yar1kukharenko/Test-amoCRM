@@ -1,5 +1,6 @@
 html {
   min-width: 320px;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -7,15 +8,19 @@ body {
   background-color: var(--black);
   color: var(--light-text);
   font-family: var(--font-main);
-  font-smooth: never;
   min-width: 320px;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 a {
   color: var(--light-text);
+}
+
+* {
+  font-smooth: never;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  webkit-font-smoothing: antialiased;
 }
 
 img {
