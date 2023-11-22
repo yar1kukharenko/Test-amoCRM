@@ -1,8 +1,24 @@
 .main {
 }
 
+.small {
+  text-transform: lowercase;
+}
+
+.getButton {
+  display: none;
+}
+
 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding: 40px 0 59px;
+
   &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
 
   &__title {
@@ -12,5 +28,165 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    max-width: 272px;
+  }
+
+  &__subtitle {
+    color: var(--light-text, #e4e5ea);
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 271px;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 272px;
+  }
+
+  &__giftText {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__giftText .orangeText {
+    font-weight: 700;
+  }
+
+  &__list {
+    display: grid;
+    font-family: var(--font-secondary);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    grid-template-columns: 1fr 1fr;
+    letter-spacing: 0.65px;
+    line-height: normal;
+    row-gap: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 265px;
+  }
+
+  &__item {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+  }
+
+  &__item::before {
+    background: var(--gradient);
+    content: "";
+    height: 1px;
+    width: 10px;
+  }
+
+  &__list-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    padding: 6.25vw 0 4.792vw;
+
+    &__left {
+      gap: 2.083vw;
+    }
+
+    &__left .orangeText {
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    &__title {
+      max-width: 26.2vw;
+    }
+
+    &__right {
+      align-items: flex-end;
+      gap: 2.778vw;
+      max-width: none;
+      padding: 1vw 0 0;
+    }
+
+    &__giftText {
+      max-width: 291px;
+      text-align: end;
+    }
+
+    &__giftText .orangeText {
+      font-weight: 700;
+      letter-spacing: 0.9px;
+    }
+
+    &__list {
+      display: none;
+    }
+
+    &__list-desktop {
+      display: grid;
+      max-width: 330px;
+      row-gap: 2.083vw;
+      text-transform: unset;
+      text-wrap: unset;
+      width: fit-content;
+    }
+
+    &__item-desktop {
+      align-items: end;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5vw;
+      text-align: end;
+    }
+
+    &__h4 {
+      font-family: var(--font-main);
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0.9px;
+      line-height: normal;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    &__itemText {
+      font-family: var(--font-secondary);
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: normal;
+      text-align: right;
+    }
+
+    &__item-desktop::before {
+      all: initial;
+    }
+  }
+  .getButton {
+    align-items: center;
+    background-color: var(--button-bg);
+    display: flex;
+    font-family: var(--font-main);
+    font-size: var(--fz-10-16);
+    font-style: normal;
+    font-weight: 500;
+    height: 4.236vw;
+    justify-content: center;
+    line-height: normal;
+    margin-top: 1.45vw;
+    width: 18.194vw;
   }
 }

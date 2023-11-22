@@ -22,12 +22,6 @@ img {
   width: 100%;
 }
 
-@media (min-width: 1024px) {
-  .wrapper {
-    padding: 3.194vw 0 0;
-  }
-}
-
 @media (min-width: 1440px) {
   .wrapper {
     padding: 46px 0 0;
@@ -35,11 +29,20 @@ img {
 }
 
 .orangeText {
-  background: linear-gradient(45deg, #0b2349 33%, #0d61bc 66%, #8aa9d6);
+  background: var(--gradient);
   -webkit-background-clip: text;
-  font-size: var(--fz-36-48);
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding: 3.194vw 0 0;
+  }
+
+  .orangeText {
+    text-transform: uppercase;
+  }
 }

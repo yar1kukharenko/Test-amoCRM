@@ -1,9 +1,14 @@
 :root {
   --black: #0e1014;
+  --gradient: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  --fz-10-16: clamp(0.6rem, 1.3vw, 1rem);
   --fz-12-16: clamp(0.75rem, 1.3vw, 1rem);
+  --fz-13-15: clamp(0.8125rem, 2vw, 0.9375rem);
   --fz-36-48: clamp(2.25rem, 3.4vw, 3rem);
   --fz-5-10: clamp(0.125rem, -0.0179rem + 0.7143vw, 0.625rem);
+  --button-bg: #4077f3;
   --font-main: inter, roboto, arial, helvetica, sans-serif;
   --container-padding: clamp(1rem, -1.3929rem + 11.9643vw, 9.375rem);
+  --font-secondary: Montserrat, roboto, arial, helvetica, sans-serif;
   --light-text: #e4e5ea;
 }
