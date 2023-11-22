@@ -174,19 +174,56 @@
     &__item-desktop::before {
       all: initial;
     }
+
+    .getButton {
+      align-items: center;
+      background-color: var(--button-bg);
+      display: flex;
+      font-family: var(--font-main);
+      font-size: var(--fz-10-16);
+      font-style: normal;
+      font-weight: 500;
+      justify-content: center;
+      line-height: normal;
+      margin-top: 1.45vw;
+      min-height: 4.236vw;
+      width: 18.194vw;
+    }
   }
-  .getButton {
-    align-items: center;
-    background-color: var(--button-bg);
-    display: flex;
-    font-family: var(--font-main);
-    font-size: var(--fz-10-16);
-    font-style: normal;
-    font-weight: 500;
-    height: 4.236vw;
-    justify-content: center;
-    line-height: normal;
-    margin-top: 1.45vw;
-    width: 18.194vw;
+}
+
+@media (min-width: 1440px) {
+  .content {
+    padding: 91px 0 69px;
+
+    &__left {
+      gap: 30px;
+    }
+
+    &__title {
+      max-width: 377px;
+    }
+
+    &__right {
+      align-items: flex-end;
+      gap: 40px;
+      max-width: none;
+      padding: 14.4px 0 0;
+    }
+
+    &__list-desktop {
+      row-gap: 30px;
+    }
+
+    &__item-desktop {
+      gap: 7px;
+    }
+
+    .getButton {
+      height: auto;
+      min-height: 61px;
+      max-width: 262px;
+      margin-top: 21px;
+    }
   }
 }

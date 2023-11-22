@@ -1,5 +1,8 @@
-/* Base */
-@import "./base/*.scss";
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
 
-/* Blocks */
 @import "./blocks/*";

@@ -22,12 +22,6 @@ img {
   width: 100%;
 }
 
-@media (min-width: 1440px) {
-  .wrapper {
-    padding: 46px 0 0;
-  }
-}
-
 .orangeText {
   background: var(--gradient);
   -webkit-background-clip: text;
@@ -44,5 +38,11 @@ img {
 
   .orangeText {
     text-transform: uppercase;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    padding: 46px 0 0;
   }
 }

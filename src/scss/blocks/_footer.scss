@@ -1,0 +1,196 @@
+.footer {
+  padding: 41px 0 60px;
+
+  &__row {
+    display: flex;
+
+    // flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__h4 {
+    color: var(--dark-gray);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  &__link-desktop {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fz-14-16);
+    font-style: normal;
+    font-weight: 400;
+    gap: 10px;
+    line-height: normal;
+  }
+
+  &__menuRow {
+    display: flex;
+    gap: 48px;
+    max-width: 288px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__icon {
+    min-width: 24px;
+  }
+
+  &__tel {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.rights {
+  display: block;
+  font-family: var(--font-secondary);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 50px 0 5px;
+}
+
+#politics {
+  display: block;
+  font-family: var(--font-secondary);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 3.819vw 0 1.389vw;
+
+    &__row {
+      gap: 6.806vw;
+      justify-content: start;
+    }
+
+    &__link-desktop {
+      display: inline;
+    }
+
+    &__link-mobile {
+      display: none;
+    }
+
+    &__block {
+      gap: 1.389vw;
+    }
+
+    &__block:last-child {
+      align-items: end;
+      margin-left: auto;
+    }
+
+    &__block:last-child &__list {
+      align-items: end;
+      gap: 1.458vw;
+      text-align: end;
+    }
+
+    &__h4 {
+      font-size: 0.875rem;
+      font-weight: 700;
+      letter-spacing: 0.7px;
+    }
+
+    &__list {
+      gap: 0.694vw;
+    }
+
+    &__menuRow {
+      gap: 3.611vw;
+      //max-width: none;
+      max-width: 14.722vw;
+    }
+
+    &__icons {
+      gap: 0.694vw;
+    }
+
+    &__icon {
+      min-width: unset;
+    }
+
+    &__bottom {
+      align-items: end;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rights {
+      margin: 2.292vw 0 0.347vw;
+    }
+  }
+}
+
+@media (min-width: 1153px) {
+  .footer {
+    &__menuRow {
+      gap: 3.611vw;
+      max-width: none;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    padding: 55px 0 20px;
+
+    &__row {
+      gap: 98px;
+    }
+
+    &__block:last-child &__list {
+      gap: 21px;
+    }
+
+    &__list {
+      gap: 10px;
+    }
+
+    &__block {
+      gap: 20px;
+    }
+
+    &__menuRow {
+      gap: 52px;
+      max-width: 212px;
+    }
+
+    &__icons {
+      gap: 10px;
+    }
+
+    .rights {
+      margin: 33px 0 5px;
+    }
+  }
+}
