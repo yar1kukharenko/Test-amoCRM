@@ -1,5 +1,7 @@
 # Тестовое задание для amoCRM
 
+## https://yar1kukharenko.github.io/Test-amoCRM/
+
 Для вёрстки была использована сборка на Gulp + Webpack с оптимизацией изображений, минификацией кода, Sass (SCSS) и т.д.
 
 Desktop:
