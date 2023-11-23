@@ -49,6 +49,18 @@
     max-width: 288px;
   }
 
+  &__link:hover {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__tel:hover {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   &__icons {
     display: flex;
     gap: 10px;
@@ -84,6 +96,12 @@
   font-weight: 400;
   line-height: normal;
   text-decoration-line: underline;
+
+  &:hover {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 @media (min-width: 1024px) {

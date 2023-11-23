@@ -195,7 +195,13 @@
       line-height: normal;
       margin-top: 1.45vw;
       min-height: 4.236vw;
+      transition: all 0.5s ease;
       width: 18.194vw;
+    }
+
+    .getButton:hover {
+      background: var(--gradient);
+      color: var(--black);
     }
   }
 }

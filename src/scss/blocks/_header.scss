@@ -33,6 +33,12 @@
     text-transform: uppercase;
   }
 
+  &__link:hover {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   &__item:last-child {
     display: none;
   }
@@ -67,6 +73,12 @@
 
   &__tel {
     display: none;
+  }
+
+  &__tel:hover {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 
