@@ -98,7 +98,7 @@
   }
 }
 
-@media (width >= 1024px) {
+@media (min-width: 1024px) {
   .content {
     flex-direction: row;
     gap: 0;
@@ -204,7 +204,7 @@
   }
 }
 
-@media (width >= 1440px) {
+@media (min-width: 1440px) {
   .content {
     padding: 91px 0 69px;
 
