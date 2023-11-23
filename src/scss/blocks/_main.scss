@@ -1,8 +1,6 @@
 .main {
-  //background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-
   position: relative;
   width: 100%;
 }
@@ -76,10 +74,10 @@
     grid-template-columns: 1fr 1fr;
     letter-spacing: 0.65px;
     line-height: normal;
+    max-width: 265px;
     row-gap: 14px;
     text-transform: uppercase;
     white-space: nowrap;
-    width: 265px;
   }
 
   &__item {
@@ -100,7 +98,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (width >= 1024px) {
   .content {
     flex-direction: row;
     gap: 0;
@@ -206,7 +204,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (width >= 1440px) {
   .content {
     padding: 91px 0 69px;
 

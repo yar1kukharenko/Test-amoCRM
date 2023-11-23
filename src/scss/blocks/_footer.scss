@@ -46,7 +46,7 @@
   &__menuRow {
     display: flex;
     gap: 48px;
-    max-width: 288px;
+    max-width: 284px;
   }
 
   &__link:hover {
@@ -149,8 +149,7 @@
 
     &__menuRow {
       gap: 3.611vw;
-      //max-width: none;
-      max-width: 14.722vw;
+      max-width: 24.5vw;
     }
 
     &__icons {
@@ -191,7 +190,7 @@
     }
 
     &__block:last-child &__list {
-      gap: 21px;
+      gap: 19px;
     }
 
     &__list {
